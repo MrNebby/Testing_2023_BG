@@ -1,0 +1,249 @@
+/* container*/
+.container_12 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+/* Setting up the columns*/
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	display: inline;
+	float: left;
+	position: relitive;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* alpha - first, omega - last*/
+.alpha {
+	margin-left: 0;
+}
+
+.omega {
+	margin-right: 0;
+}
+
+/*classes for box size*/
+.container_12 .grid_1 {
+	width: 60px;
+}
+
+.container_12 .grid_2 {
+	width: 140px;
+}
+
+.container_12 .grid_3 {
+	width: 220px;
+}
+
+.container_12 .grid_4 {
+	width: 300px;
+}
+
+.container_12 .grid_5 {
+	width: 380px;
+}
+
+.container_12 .grid_6 {
+	width: 460px;
+}
+
+.container_12 .grid_7 {
+	width: 540px;
+}
+
+.container_12 .grid_8 {
+	width: 620px;
+}
+
+.container_12 .grid_9 {
+	width: 700px;
+}
+
+.container_12 .grid_10 {
+	width: 780px;
+}
+
+.container_12 .grid_11 {
+	width: 860px;
+}
+
+.container_12 .grid_12 {
+	width: 940px;
+}
+
+/* Clear floated elements*/
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+/* CSS that is not for the grid*/
+* {
+	font-family: Arial, Verdana, sans-serif;
+	color: #6589cb;
+	text-align: center;
+}
+
+p {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+body {
+	background-color: #56a3fc;
+}
+
+#nav, #feature, .article, #footer{
+	background-color: #aaf67f;
+	margin-top: 20px;
+	padding: 10px 0px 5px 0px;
+}
+
+.images {
+	padding-top: 10px;
+}
+
+#logo {
+	background-color: #aaf77f;
+	padding-top: 20px;
+}
+
+/*CSS to change box height*/
+.row_165 {
+	height: 165px;
+}
+
+.row_168 {
+	height: 168px;
+}
+
+.row_180 {
+	height: 180px;
+}
+
+.row_200 {
+	height: 200px;
+}
+
+.row_400 {
+	height: 400px;
+}
+
+.row_681 {
+	height: 681px;
+}
+
+/*CSS for dropdown menu*/
+ul {
+	display: inline;
+	padding: 15px 0px 0px 0px;
+	list-style: none;
+}
+
+ul li {
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 4px;
+	position: relative;
+	padding: 15px 20px 17px;
+}
+
+ul li:hover {
+	background: #baf26c;
+}
+
+/*Link colors */
+a:link {color: #237afd;}
+a:visited {color: #56a3fc;}
+a:hover {color: #5683fd;}
+a:active {color: #5683fd;}
+
+a {
+	text-decoration: none;
+}
+
+/*List inside list CSS, hides when not in use */
+ul li ul {
+	padding: 0;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 175px;
+	display: none;
+	visibility: hidden;
+	z-index: 1;
+}
+
+ul li ul li {
+	background: #aaf67f;
+	display: block;
+}
+
+ul li ul li:hover {
+	background: #baf26c;
+}
+
+/*Shows drop down items when main item is hovered over */
+ul li:hover ul {
+	display: block;
+	visibility: visible;
+}
+/*CSS for drop down ends here */
+
+/*CSS for image slideshow starts */
+#slideshow {
+	position: relative;
+}
+
+#slideshow div{
+	position: absolute;
+}
+/*CSS for image slideshow ends */
+
+.image_1 {
+	border-radius: 50%;
+	filter: brightness(70%);
+}
+
+.image_1:hover {
+	filter: brightness(100%);
+}
